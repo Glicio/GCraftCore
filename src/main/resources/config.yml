@@ -1,0 +1,4 @@
+#nome do banco de dados do MongoDB
+db_url: jdbc:postgresql://localhost:5432/Bukkit
+db_username: postgres
+db_password: postgres

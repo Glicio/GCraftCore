@@ -1,0 +1,28 @@
+main: com.glicioo.GCraftCore
+name: GCraftCore
+version: 1.0
+api-version: 1.18
+commands:
+  getplayers:
+    description: DEBUG COMMAND
+    usage: /getplayers
+    permission: gcore.dbgetplayer
+  getplayer:
+    description: DEBUG COMMAND
+    usage: /getplayer
+    permission: gcore.dbgetplayer
+  registrar:
+    description: Registra-se no servidor
+    usage: /registrar [senha] [senha]
+  logar:
+    description: Faz login no servidor
+    usage: /login [senha]
+  sethome:
+    description: Define uma home
+    usage: /sethome [NOME DA HOME]
+  home:
+    description: Teletransporta-se para sua home
+    usage: /home [NOME DA HOME]
+  delhome:
+    description: Deleta uma Home
+    usage: /delhome [NOME DA HOME]
